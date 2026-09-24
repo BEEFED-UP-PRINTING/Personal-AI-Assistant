@@ -1,0 +1,14 @@
+packages:
+  "react-markdown": "Render markdown responses from AI"
+  "remark-gfm": "GitHub Flavored Markdown for tables and lists"
+  "react-syntax-highlighter": "Syntax highlighting for code blocks in AI responses"
+  "framer-motion": "Smooth entry and layout animations"
+  "date-fns": "Formatting relative dates in the conversation history"
+  "clsx": "Utility for constructing className strings"
+  "tailwind-merge": "Utility for merging tailwind classes safely"
+  "lucide-react": "Beautiful, crisp icons"
+
+notes:
+  - Frontend app uses an exclusively dark mode theme for a premium professional look.
+  - Streaming uses fetch + ReadableStream to parse Server-Sent Events from the backend.
+  - State management heavily leverages optimistic updates via TanStack Query's cache.
